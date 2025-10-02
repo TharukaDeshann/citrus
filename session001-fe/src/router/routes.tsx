@@ -6,6 +6,11 @@ const routeItems = [
     component: "Dashboard",
     policy: "dashboard.index",
   },
+  {
+    path: routes.TOOL_DETAILS,
+    component: "ToolDetails",
+    policy: "tools.view",
+  },
 ];
 
 export default routeItems;

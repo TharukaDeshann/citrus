@@ -42,7 +42,6 @@ export const ClientRouter: React.FC = () => {
             return (
               <Route
                 path={route?.path}
-                index
                 key={key}
                 element={
                   isPermission ? (

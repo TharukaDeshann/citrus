@@ -76,3 +76,6 @@ export const ROUNDS = "/masterdata/rounds";
 export const PAPERS = "/masterdata/papers";
 export const BRANCHES = "/masterdata/branches";
 export const DELIVERY_FEE = "/masterdata/deliveryfees";
+
+// Tools
+export const TOOL_DETAILS = "/tools/drill"; // mock path for the drill example

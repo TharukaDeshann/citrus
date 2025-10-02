@@ -1,3 +1,26 @@
+# Session001 Frontend
+
+## Quick start
+
+1. Install dependencies
+2. Start the dev server
+
+The app runs with Create React App + Tailwind. A proxy to the backend can be set in `package.json` or via `REACT_APP_API_URL`.
+
+## New demo page: Tool Details
+
+- Path: `/tools/drill`
+- File: `src/pages/ToolDetails/index.tsx`
+- Shows a white card layout with:
+	- Tool image and specs
+	- Borrow history table
+	- Repair history table
+	- All data is mocked in the component
+
+To access:
+
+- Start the dev server then visit http://localhost:3000/tools/drill
+
 # Citrus65 React Template
 
 This template provides a modern React application with TypeScript, Redux Toolkit, Tailwind CSS, and a comprehensive component library.
